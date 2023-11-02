@@ -1,5 +1,75 @@
 <html>
-    <head> <style> body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; text-align: center; } h1 { background-color: #333; color: #fff; padding: 20px 0; margin: 0; } .container { max-width: 800px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); } .question { margin-bottom: 20px; text-align: left; padding: 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #f9f9f9; } .options { margin-top: 10px; } label { display: block; margin-bottom: 10px; } input[type="radio"] { margin-right: 5px; } .button-container { text-align: center; margin-top: 20px; } button { background-color: #333; color: #fff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; } .result-container { margin-top: 20px; } .incorrect { color: red; } </style> </head>
+    <head> 
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .question {
+            margin-bottom: 20px;
+            text-align: left;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        .options {
+            margin-top: 10px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .result-container {
+            margin-top: 20px;
+        }
+
+        .incorrect {
+            color: red;
+        }
+    </style>
+    </head>
 <body>
     <h1>Cuestionario: Ensamble de PC</h1>
 
