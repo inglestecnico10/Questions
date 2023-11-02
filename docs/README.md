@@ -1,6 +1,5 @@
 <html>
 <head>
-    <title>Cuestionario: Ensamble de PC</title>
     <style>
         body {
             font-family: Arial, sans-serif;
