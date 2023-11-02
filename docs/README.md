@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title>Cuestionario: Ensamble de PC</title>
@@ -159,7 +158,7 @@
 
         <div class="question">
             <p>Paso 10: ¿Qué periférico se utiliza para interactuar con la computadora?</p>
-            <div class "options">
+            <div class="options">
                 <label><input type="radio" name="q10" value="a"> Ratón</label>
                 <label><input type="radio" name="q10" value="b"> Memoria RAM</label>
                 <label><input type="radio" name="q10" value="c"> Tarjeta de sonido</label>
