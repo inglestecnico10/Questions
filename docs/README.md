@@ -1,228 +1,228 @@
 <html>
-    <head> 
-        <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
+<head> 
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
 
-        h1 {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            margin: 0;
-        }
+    h1 {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        margin: 0;
+    }
 
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
 
-        .question {
-            margin-bottom: 20px;
-            text-align: left;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
+    .question {
+        margin-bottom: 20px;
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
 
-        .options {
-            margin-top: 10px;
-        }
+    .options {
+        margin-top: 10px;
+    }
 
-        label {
-            display: block;
-            margin-bottom: 10px;
-        }
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
 
-        input[type="radio"] {
-            margin-right: 5px;
-        }
+    input[type="radio"] {
+        margin-right: 5px;
+    }
 
-        .button-container {
-            text-align: center;
-            margin-top: 20px;
-        }
+    .button-container {
+        text-align: center;
+        margin-top: 20px;
+    }
 
-        button {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+    button {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 
-        .result-container {
-            margin-top: 20px;
-        }
+    .result-container {
+        margin-top: 20px;
+    }
 
-        .incorrect {
-            color: red;
-        }
-    </style>
-    </head>
+    .incorrect {
+        color: red;
+    }
+</style>
+</head>
 <body>
-    <h1>Cuestionario: Ensamble de PC</h1>
+    <h1>PC Parts</h1>
 
     <div class="container">
         <div class="question">
-            <p>Paso 1: ¿Cuál de las siguientes partes se debe seleccionar primero al ensamblar un PC?</p>
+            <p>Question 1: What component is responsible for long-term data storage in a computer?</p>
             <div class="options">
-                <label><input type="radio" name="q1" value="a"> Procesador</label>
-                <label><input type="radio" name="q1" value="b"> Placa base</label>
-                <label><input type="radio" name="q1" value="c"> Fuente de alimentación</label>
+                <label><input type="radio" name="q1" value="a"> a. CPU</label>
+                <label><input type="radio" name="q1" value="b"> b. RAM</label>
+                <label><input type="radio" name="q1" value="c"> c. Hard drive *</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 2: ¿Qué componente se conecta a la placa base y se encarga de la memoria y la CPU?</p>
+            <p>Question 2: Which of the following options best describes the function of a motherboard?</p>
             <div class="options">
-                <label><input type="radio" name="q2" value="a"> Tarjeta de video</label>
-                <label><input type="radio" name="q2" value="b"> Memoria RAM</label>
-                <label><input type="radio" name="q2" value="c"> Disco duro</label>
+                <label><input type="radio" name="q2" value="a"> a. Processes data and runs programs.</label>
+                <label><input type="radio" name="q2" value="b"> b. Connects all computer components and facilitates communication between them. *</label>
+                <label><input type="radio" name="q2" value="c"> c. Stores files and applications.</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 3: ¿Qué componente se utiliza para alimentar la placa base y otros dispositivos?</p>
+            <p>Question 3: What device is essential for audio output on a computer?</p>
             <div class="options">
-                <label><input type="radio" name="q3" value="a"> Unidad de disco óptico</label>
-                <label><input type="radio" name="q3" value="b"> Fuente de alimentación</label>
-                <label><input type="radio" name="q3" value="c"> Teclado</label>
+                <label><input type="radio" name="q3" value="a"> a. Monitor</label>
+                <label><input type="radio" name="q3" value="b"> b. Speakers *</label>
+                <label><input type="radio" name="q3" value="c"> c. Keyboard</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 4: ¿Dónde se inserta el procesador en la placa base?</p>
+            <p>Question 4: What type of memory is used to store data and programs temporarily while the computer is powered on?</p>
             <div class="options">
-                <label><input type="radio" name="q4" value="a"> En la ranura de memoria RAM</label>
-                <label><input type="radio" name="q4" value="b"> En el zócalo de la CPU</label>
-                <label><input type="radio" name="q4" value="c"> En la ranura PCIe</label>
+                <label><input type="radio" name="q4" value="a"> a. Hard drive</label>
+                <label><input type="radio" name="q4" value="b"> b. RAM *</label>
+                <label><input type="radio" name="q4" value="c"> c. CPU</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 5: ¿Qué tipo de memoria se conecta a la placa base?</p>
+            <p>Question 5: Which component is responsible for cooling the CPU in a computer?</p>
             <div class="options">
-                <label><input type="radio" name="q5" value="a"> Memoria ROM</label>
-                <label><input type="radio" name="q5" value="b"> Memoria RAM</label>
-                <label><input type="radio" name="q5" value="c"> Memoria virtual</label>
+                <label><input type="radio" name="q5" value="a"> a. Power supply</label>
+                <label><input type="radio" name="q5" value="b"> b. CPU fan *</label>
+                <label><input type="radio" name="q5" value="c"> c. Hard drive</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 6: ¿Cuál de los siguientes componentes se utiliza para almacenar datos a largo plazo?</p>
+            <p>Question 6: What part of the computer provides electrical power to all components?</p>
             <div class="options">
-                <label><input type="radio" name="q6" value="a"> SSD</label>
-                <label><input type="radio" name="q6" value="b"> RAM</label>
-                <label><input type="radio" name="q6" value="c"> CPU</label>
+                <label><input type="radio" name="q6" value="a"> a. Motherboard</label>
+                <label><input type="radio" name="q6" value="b"> b. Power supply unit *</label>
+                <label><input type="radio" name="q6" value="c"> c. CPU</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 7: ¿Dónde se conecta la tarjeta de video en la placa base?</p>
+            <p>Question 7: Which of the following options best describes the function of a graphics card?</p>
             <div class="options">
-                <label><input type="radio" name="q7" value="a"> En un puerto USB</label>
-                <label><input type="radio" name="q7" value="b"> En un puerto PCIe</label>
-                <label><input type="radio" name="q7" value="c"> En la ranura de memoria RAM</label>
+                <label><input type="radio" name="q7" value="a"> a. Stores graphic files.</label>
+                <label><input type="radio" name="q7" value="b"> b. Processes complex mathematical calculations.</label>
+                <label><input type="radio" name="q7" value="c"> c. Generates images on the screen and accelerates graphics in games and applications. *</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 8: ¿Qué componente se utiliza para enfriar la CPU y otros componentes internos?</p>
+            <p>Question 8: What device is used to input data into a computer by moving it on a flat surface?</p>
             <div class="options">
-                <label><input type="radio" name="q8" value="a"> Ventilador de la caja</label>
-                <label><input type="radio" name="q8" value="b"> Refrigeración líquida</label>
-                <label><input type="radio" name="q8" value="c"> Ventilador de la CPU</label>
+                <label><input type="radio" name="q8" value="a"> a. Monitor</label>
+                <label><input type="radio" name="q8" value="b"> b. Mouse *</label>
+                <label><input type="radio" name="q8" value="c"> c. Keyboard</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 9: ¿Qué tipo de almacenamiento es más rápido que los discos duros tradicionales?</p>
+            <p>Question 9: Which of the following components is typically a solid-state drive (SSD) or hard disk drive (HDD)?</p>
             <div class="options">
-                <label><input type="radio" name="q9" value="a"> Disco duro</label>
-                <label><input type="radio" name="q9" value="b"> SSD</label>
-                <label><input type="radio" name="q9" value="c"> CD-ROM</label>
+                <label><input type="radio" name="q9" value="a"> a. CPU</label>
+                <label><input type="radio" name="q9" value="b"> b. RAM</label>
+                <label><input type="radio" name="q9" value="c"> c. Data storage *</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 10: ¿Qué periférico se utiliza para interactuar con la computadora?</p>
+            <p>Question 10: What type of memory is volatile and is erased when the computer is turned off?</p>
             <div class="options">
-                <label><input type="radio" name="q10" value="a"> Ratón</label>
-                <label><input type="radio" name="q10" value="b"> Memoria RAM</label>
-                <label><input type="radio" name="q10" value="c"> Tarjeta de sonido</label>
+                <label><input type="radio" name="q10" value="a"> a. Hard drive</label>
+                <label><input type="radio" name="q10" value="b"> b. RAM *</label>
+                <label><input type="radio" name="q10" value="c"> c. CPU</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 11: ¿Qué se debe hacer después de ensamblar todas las partes del PC?</p>
+            <p>Question 11: What type of connector is used to attach peripherals like printers and cameras to a computer?</p>
             <div class="options">
-                <label><input type="radio" name="q11" value="a"> Conectar la fuente de alimentación</label>
-                <label><input type="radio" name="q11" value="b"> Encender la computadora</label>
-                <label><input type="radio" name="q11" value="c"> Instalar el sistema operativo</label>
+                <label><input type="radio" name="q11" value="a"> a. USB *</label>
+                <label><input type="radio" name="q11" value="b"> b. HDMI</label>
+                <label><input type="radio" name="q11" value="c"> c. VGA</label>
             </div>
         </div>
 
         <div class="question">
-            <p>Paso 12: ¿Cuál es el último paso en el ensamblaje de un PC?</p>
+            <p>Question 12: Which component is essential for displaying information on a computer?</p>
             <div class="options">
-                <label><input type="radio" name="q12" value="a"> Conectar la fuente de alimentación</label>
-                <label><input type="radio" name="q12" value="b"> Encender la computadora</label>
-                <label><input type="radio" name="q12" value="c"> Instalar el sistema operativo</label>
+                <label><input type="radio" name="q12" value="a"> a. Sound card</label>
+                <label><input type="radio" name="q12" value="b"> b. Motherboard</label>
+                <label><input type="radio" name="q12" value="c"> c. Graphics card *</label>
             </div>
         </div>
 
         <div class="button-container">
-            <button onclick="calcularPuntuacion()">Calcular Puntuación</button>
+            <button onclick="calculateScore()">Calculate Score</button>
         </div>
 
         <div class="result-container">
-            <p id="puntuacion"></p>
-            <p id="respuestasIncorrectas" class="incorrect"></p>
+            <p id="score"></p>
+            <p id="incorrectAnswers" class="incorrect"></p>
         </div>
     </div>
 
     <script>
-        function calcularPuntuacion() {
-            var puntuacion = 0;
-            var respuestas = ["b", "b", "b", "b", "b", "a", "b", "b", "b", "a", "c", "b"];
-            var respuestasUsuario = [];
+        function calculateScore() {
+            var score = 0;
+            var answers = ["b", "b", "c", "b", "b", "c", "b", "c", "b", "b", "a", "c"];
+            var userAnswers = [];
 
             for (var i = 1; i <= 12; i++) {
-                var seleccion = document.querySelector('input[name="q' + i + '"]:checked');
-                if (seleccion) {
-                    respuestasUsuario.push(seleccion.value);
-                    if (seleccion.value === respuestas[i - 1]) {
-                        puntuacion++;
+                var selection = document.querySelector('input[name="q' + i + '"]:checked');
+                if (selection) {
+                    userAnswers.push(selection.value);
+                    if (selection.value === answers[i - 1]) {
+                        score++;
                     }
                 } else {
-                    respuestasUsuario.push("");
+                    userAnswers.push("");
                 }
             }
 
-            var resultado = "Puntuación: " + puntuacion + " de 12 respuestas correctas";
-            document.getElementById("puntuacion").innerHTML = resultado;
+            var result = "Score: " + score + " out of 12 correct answers";
+            document.getElementById("score").innerHTML = result;
 
-            // Mostrar respuestas incorrectas
-            var respuestasIncorrectas = [];
-            for (var i = 0; i < respuestas.length; i++) {
-                if (respuestasUsuario[i] !== respuestas[i]) {
-                    respuestasIncorrectas.push("Paso " + (i + 1) + ": Tu respuesta - " + respuestasUsuario[i] + ", Respuesta correcta - " + respuestas[i]);
+            // Display incorrect answers
+            var incorrectAnswers = [];
+            for (var i = 0; i < answers.length; i++) {
+                if (userAnswers[i] !== answers[i]) {
+                    incorrectAnswers.push("Question " + (i + 1) + ": Your answer - " + userAnswers[i] + ", Correct answer - " + answers[i]);
                 }
             }
 
-            var respuestasIncorrectasText = respuestasIncorrectas.length > 0 ? "Respuestas incorrectas: " + respuestasIncorrectas.join(", ") : "Todas las respuestas son correctas";
-            document.getElementById("respuestasIncorrectas").innerHTML = respuestasIncorrectasText;
+            var incorrectAnswersText = incorrectAnswers.length > 0 ? "Incorrect Answers: " + incorrectAnswers.join(", ") : "All answers are correct";
+            document.getElementById("incorrectAnswers").innerHTML = incorrectAnswersText;
         }
     </script>
 </body>
